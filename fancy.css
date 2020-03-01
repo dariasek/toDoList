@@ -1,0 +1,70 @@
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0% 30% 0% 30%;
+    background-color: rgb(242, 248, 250);
+}
+.Aclass{
+    padding-left: 1vw;
+}
+header{
+    font-size: 5vh;
+    font-weight: 700;
+}
+input{
+    background-color: rgb(242, 248, 250);
+    margin-top: 3vh;
+    width: 80%;
+    font-size: 3vh;
+    border: none;
+    border-bottom: 1px solid silver;
+}
+.list-item{
+    margin-top: 3vh;
+    display: grid;
+    grid-template-columns: 10fr 1fr 1fr;
+    grid-column-gap: 1vw;
+}
+.doneClass{
+    color: silver;
+    text-decoration: line-through;
+}
+
+.doneB{
+    color: rgb(118, 207, 118);
+    border-radius: 50%;
+    border-color: rgb(118, 207, 118);
+    background-color: rgb(242, 248, 250);
+}
+.delB{
+    color: firebrick;
+    border-radius: 50%;
+    border-color: firebrick;
+    background-color: rgb(242, 248, 250);
+}
+.material-icons{
+    margin: 0.3vh 0.15vh 0.3vh 0.15vh;
+}
+#del-all{
+    margin-top: 3vh;
+    color: firebrick;
+    border: solid 1px firebrick;
+    border-radius: 19px;
+    padding: 1.5vh 3vh 1.5vh 3vh;
+    background-color: rgb(242, 248, 250);
+}
+#add{
+    color: rgb(118, 207, 118);
+    border: solid 1px rgb(118, 207, 118);
+    border-radius: 19px;
+    padding: 1.5vh 3vh 1.5vh 3vh;
+    background-color: rgb(242, 248, 250);
+}
+#add:hover{
+    text-decoration: underline rgb(118, 207, 118);
+}
+#del-all:hover{
+    text-decoration: underline firebrick;
+}
+.clicked{
+    opacity: 30%;
+}
