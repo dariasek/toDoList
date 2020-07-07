@@ -1,29 +1,32 @@
 body{
     font-family: Verdana, Geneva, sans-serif;
-    margin: 0% 30% 0% 30%;
-    background-color: rgb(242, 248, 250);
+    margin: 0;
 }
-.Aclass{
-    padding-left: 1vw;
+
+.main{
+    margin: 0 200px 0 200px;
 }
+
 header{
     font-size: 5vh;
     font-weight: 700;
+    text-align: center;
 }
+
 input{
-    background-color: rgb(242, 248, 250);
     margin-top: 3vh;
     width: 80%;
-    font-size: 3vh;
     border: none;
     border-bottom: 1px solid silver;
 }
+
 .list-item{
     margin-top: 3vh;
     display: grid;
-    grid-template-columns: 10fr 1fr 1fr;
+    grid-template-columns: 1fr 45px 45px;
     grid-column-gap: 1vw;
 }
+
 .doneClass{
     color: silver;
     text-decoration: line-through;
@@ -32,39 +35,49 @@ input{
 .doneB{
     color: rgb(118, 207, 118);
     border-radius: 50%;
+    height: 45px;
     border-color: rgb(118, 207, 118);
-    background-color: rgb(242, 248, 250);
+    background-color: white;
 }
+
 .delB{
     color: firebrick;
     border-radius: 50%;
     border-color: firebrick;
-    background-color: rgb(242, 248, 250);
+    background-color: white;
 }
-.material-icons{
-    margin: 0.3vh 0.15vh 0.3vh 0.15vh;
-}
+
+
 #del-all{
     margin-top: 3vh;
+    margin-left: 45vw;
     color: firebrick;
     border: solid 1px firebrick;
     border-radius: 19px;
     padding: 1.5vh 3vh 1.5vh 3vh;
-    background-color: rgb(242, 248, 250);
+    background-color: white;
 }
+
+input, #add, #del-all {
+    font-size: medium;
+}
+
 #add{
     color: rgb(118, 207, 118);
     border: solid 1px rgb(118, 207, 118);
     border-radius: 19px;
     padding: 1.5vh 3vh 1.5vh 3vh;
-    background-color: rgb(242, 248, 250);
+    background-color: white;
 }
+
 #add:hover{
     text-decoration: underline rgb(118, 207, 118);
 }
+
 #del-all:hover{
     text-decoration: underline firebrick;
 }
+
 .clicked{
     opacity: 30%;
 }
